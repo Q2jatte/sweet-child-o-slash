@@ -1,0 +1,28 @@
+@import "custom";
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Prata&display=swap');
+
+body {
+    background-image: url("../img/slash-removebg.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    min-height: 100vh;    
+}
+.logo {
+    font-family: 'Prata', serif;
+    font-size: 2rem;
+}
+.writter {
+    font-family: 'Bad Script', cursive;
+}
+
+.nav-link {
+    &:hover {
+        color: $primary;
+    }
+}
+
+.carousel {
+    max-width: 50%;
+    margin: auto;
+}
